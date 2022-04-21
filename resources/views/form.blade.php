@@ -3,7 +3,7 @@
     <div>
         <form action="{{route('reserve.store')}}" method="post">
             @csrf
-            <label>نام:</label>
+            <label>نام شما:</label>
             <br>
             <input type="text" name="name" required>
             <br>
